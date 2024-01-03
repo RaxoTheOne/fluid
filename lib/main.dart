@@ -25,50 +25,54 @@ class MyApp extends StatelessWidget {
                     child: Column(
                       crossAxisAlignment: CrossAxisAlignment.start,
                       children: [
-                        Text('Flutter McFlutter', style: TextStyle(fontSize: 25, fontWeight: FontWeight.bold)),
-                        Text('Experienced App Developer', style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold)),
+                        Text('Flutter McFlutter',
+                            style: TextStyle(
+                                fontSize: 25, fontWeight: FontWeight.bold)),
+                        Text('Experienced App Developer',
+                            style: TextStyle(
+                                fontSize: 18, fontWeight: FontWeight.bold)),
                       ],
                     ),
                   ),
                 ],
               ),
               SizedBox(height: 20),
-              Row(
-                mainAxisAlignment: MainAxisAlignment.center,
-                children:[
-                  Expanded(
-                    flex: 1,
-                    child: Text('123 Main Street', style: TextStyle(fontWeight: FontWeight.bold),),
+              Row(mainAxisAlignment: MainAxisAlignment.center, children: [
+                Expanded(
+                  flex: 1,
+                  child: Text(
+                    '123 Main Street',
+                    style: TextStyle(fontWeight: FontWeight.bold),
                   ),
-                  SizedBox(width: 200),
-                  Expanded(
-                    flex: 1,
-                    child: Text('(415) 555-0198', style: TextStyle(fontWeight: FontWeight.bold),),
+                ),
+                SizedBox(width: 200),
+                Expanded(
+                  flex: 1,
+                  child: Text(
+                    '(415) 555-0198',
+                    style: TextStyle(fontWeight: FontWeight.bold),
                   ),
-                ]
-              ),
+                ),
+              ]),
               SizedBox(height: 20),
-              Row(
-                mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-                children:[
-                  Expanded(
-                    flex: 1,
-                    child: Icon(Icons.person, size: 30),
-                  ),
-                  Expanded(
-                    flex: 1,
-                    child: Icon(Icons.timer_outlined, size: 30),
-                  ),
-                  Expanded(
-                    flex: 1,
-                    child: Icon(Icons.phone_android, size :30),
-                  ),
-                  Expanded(
-                    flex: 1,
-                    child: Icon(Icons.phone_iphone, size :30),
-                  ),
-                ]
-              )
+              Row(mainAxisAlignment: MainAxisAlignment.spaceEvenly, children: [
+                Expanded(
+                  flex: 1,
+                  child: Icon(Icons.person, size: 30),
+                ),
+                Expanded(
+                  flex: 1,
+                  child: Icon(Icons.timer_outlined, size: 30),
+                ),
+                Expanded(
+                  flex: 1,
+                  child: Icon(Icons.phone_android, size: 30),
+                ),
+                Expanded(
+                  flex: 1,
+                  child: Icon(Icons.phone_iphone, size: 30),
+                ),
+              ])
             ],
           ),
         ),
