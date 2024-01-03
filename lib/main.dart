@@ -18,15 +18,15 @@ class MyApp extends StatelessWidget {
                 children: [
                   Expanded(
                     flex: 1,
-                    child: Icon(Icons.account_circle, size: 50),
+                    child: Icon(Icons.account_circle, size: 100),
                   ),
                   Expanded(
                     flex: 2,
                     child: Column(
                       crossAxisAlignment: CrossAxisAlignment.start,
                       children: [
-                        Text('Flutter McFlutter', style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold)),
-                        Text('Experienced App Developer', style: TextStyle(fontSize: 16)),
+                        Text('Flutter McFlutter', style: TextStyle(fontSize: 25, fontWeight: FontWeight.bold)),
+                        Text('Experienced App Developer', style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold)),
                       ],
                     ),
                   ),
@@ -38,12 +38,12 @@ class MyApp extends StatelessWidget {
                 children:[
                   Expanded(
                     flex: 1,
-                    child: Text('123 Main Street'),
+                    child: Text('123 Main Street', style: TextStyle(fontWeight: FontWeight.bold),),
                   ),
                   SizedBox(width: 200),
                   Expanded(
                     flex: 1,
-                    child: Text('(415) 555-0198'),
+                    child: Text('(415) 555-0198', style: TextStyle(fontWeight: FontWeight.bold),),
                   ),
                 ]
               ),
